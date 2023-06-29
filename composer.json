@@ -1,0 +1,22 @@
+{
+    "name": "pierre/nexus",
+    "description": "A API framework for PHP",
+    "keywords": ["PHP","Framework","API"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre",
+            "email": "pierrenoel@hotmail.be"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pierre\\Nexus\\": "src/"
+        }
+    }
+}
